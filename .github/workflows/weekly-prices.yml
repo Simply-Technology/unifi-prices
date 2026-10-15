@@ -1,0 +1,32 @@
+name: Weekly UniFi price check
+
+on:
+  schedule:
+    - cron: '23 10 * * 1'   # Mondays ~6:23 AM Eastern (10:23 UTC)
+  workflow_dispatch:         # lets you run it any time from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check UI Store prices and stock
+        run: node scripts/check-prices.mjs
+      - name: Save prices.json if anything changed
+        run: |
+          git config user.name "unifi-price-bot"
+          git config user.email "actions@github.com"
+          git add prices.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "UniFi prices $(date -u +%Y-%m-%d)"
+            git push
+          fi
