@@ -1,0 +1,32 @@
+{
+ "note": "Price List rows in the quote calculator that take the weekly UI Store price. Row number -> SKU in prices.json. Edit here to swap a standard part; the website form picks it up on next open.",
+ "rows": {
+  "147": "UACC-Rack-12U-Wall-450-G",
+  "152": "UACC-Rack-42U-800-G",
+  "153": "UACC-Rack-Panel-Patch-Blank-24",
+  "154": "UACC-Rack-Panel-Brush-1U",
+  "155": "UACC-Cable-Patch-0.2M-W",
+  "156": "UPS-2U",
+  "157": "USP-PDU-Pro",
+  "158": "UACC-Rack-Shelf-CLV",
+  "159": "UDM-Pro",
+  "160": "USW-Pro-24-POE",
+  "161": "USW-Pro-48-POE",
+  "162": "U7-Pro",
+  "163": "U7-Pro-Outdoor",
+  "164": "UVC-G6-Turret",
+  "165": "UVC-G6-Bullet",
+  "166": "UVC-G6-PTZ",
+  "167": "UACC-Camera-R2-JB-W",
+  "168": "UNVR",
+  "169": "UACC-HDD-E-8TB",
+  "170": "UACC-HDD-E-16TB",
+  "171": "UACC-DAC-SFP10-0.5M",
+  "173": "UVC-G6-Entry",
+  "174": "EAH-8"
+ },
+ "models": {
+  "154": "UniFi Rack Mount Brush Panel 1U (UACC-Rack-Panel-Brush-1U)",
+  "167": "UniFi Camera Junction Box (UACC-Camera-R2-JB-W)"
+ }
+}
