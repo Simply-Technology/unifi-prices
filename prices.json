@@ -1,4 +1,4 @@
-{"checked":"2026-10-15","source":"https://store.ui.com/us/en (U.S. store, price incl. surcharge)","count":239,"previous_checked":null,"missing":["USW-Pro-48","USW-Pro-24"],"changes":[],"items":[["EF-Core",3499,3855,"In Stock"],
+{"checked":"2026-10-15","source":"https://store.ui.com/us/en (U.S. store, price incl. surcharge)","count":241,"previous_checked":"2026-10-15","missing":["USW-Pro-48","USW-Pro-24"],"changes":[{"sku":"USW-Flex-2.5G-8-PoE","field":"stock","from":"In Stock","to":"Sold out · restock 10/22"}],"items":[["EF-Core",3499,3855,"In Stock"],
 ["EFG",1999,2202,"Sold out · no restock date"],
 ["UDM-Beast",1499,1651,"In Stock"],
 ["UDM-Pro-Max",599,660,"In Stock"],
@@ -44,7 +44,7 @@
 ["USW-Pro-XG-8-PoE",499,549,"In Stock"],
 ["USW-Enterprise-8-PoE",479,527,"In Stock"],
 ["USW-Pro-8-PoE",349,384,"In Stock"],
-["USW-Flex-2.5G-8-PoE",199,219,"In Stock"],
+["USW-Flex-2.5G-8-PoE",199,219,"Sold out · restock 10/22"],
 ["USW-Flex-2.5G-8",159,175,"In Stock"],
 ["USW-Flex-2.5G-5",49,54,"In Stock"],
 ["USW-Flex-Utility",49,49,"In Stock"],
@@ -236,4 +236,6 @@
 ["UACC-Rack-12U-Wall-450-G",279,279,"In Stock"],
 ["UACC-Rack-42U-800-G",999,999,"In Stock"],
 ["UACC-Cable-Patch-0.2M-W",2.49,2.49,"In Stock"],
-["UACC-Keystone-Jack-C6",29,29,"In Stock"]]}
+["UACC-Keystone-Jack-C6",29,29,"In Stock"],
+["UACC-Rack-Panel-Brush-1U",39,39,"In Stock"],
+["UACC-Camera-R2-JB-W",49,49,"In Stock"]]}
